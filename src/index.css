@@ -47,12 +47,16 @@ nav li {
 }
 
 nav li a {
-  color: white;
+  color: grey;
   font-size: 1.2rem;
   text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+nav li a:hover {
+  color: white;
 }
 
 .nav-active {
-  color: grey;
-  transition: all .3s ease-out;
+  color: white;
 }
